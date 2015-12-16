@@ -1,3 +1,5 @@
+# Poblar LDAP con JSON
+
 ##### Poblar_LDAP.py -> Para añadir los usuarios del fichero humans.js.
 ##### Eliminar_LDAP.py -> Para eliminar los usuarios del fichero humans.js.
 ##### humans.py -> usuarios que vamos a añadir a nuestro LDAP.
