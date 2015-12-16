@@ -35,7 +35,7 @@ virtualenv ldap
 cd ldap
 ```
 
-Activamoe el virtualenv anterior:
+Activamos el virtualenv anterior:
 ```
 source bin/activate
 ```
@@ -52,7 +52,7 @@ apt-get install libnss-ldapd ldap-utils
 
 Configuración durante la instalación:
 
-Conección:
+Conexión:
 ```
 ldap://localhost:389/
 ```
