@@ -2,7 +2,8 @@
 
 ##### Poblar_LDAP.py -> Para añadir los usuarios del fichero humans.js.
 ##### Eliminar_LDAP.py -> Para eliminar los usuarios del fichero humans.js.
-##### humans.py -> usuarios que vamos a añadir a nuestro LDAP.
+##### humans.py -> Usuarios que vamos a añadir a nuestro LDAP.
+##### public_key.sh -> Script para consultar la clave publica del usuario.
 
 Añadimos el esquema openssh-lpk, para poder incluir claves públicas ssh en un directorio LDAP:
 ```
