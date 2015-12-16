@@ -68,14 +68,14 @@ sudo pam-auth-update
 Creamos nuestro script para obtener la clave publica del usuario del ldap:
 
 nano /usr/bin/public_key.sh
-#!/bin/sh
-
-ip_ldap="localhost"
-port=389
-base="dc=jm,dc=gonzalonazareno,dc=org"
-
-ldapsearch -x -h $ip_ldap -p $port -b $base -s sub "(&(objectClass=posixAccount) (objectClass=ldapPublicKey) (cn=$1))" | \
-	sed -n '/^ /{H;d};/sshPublicKey:/x;$g;s/\n *//g;s/sshPublicKey: //gp'
+>#!/bin/sh
+>
+>ip_ldap="localhost"
+>port=389
+>base="dc=jm,dc=gonzalonazareno,dc=org"
+>
+>ldapsearch -x -h $ip_ldap -p $port -b $base -s sub "(&(objectClass=posixAccount) (objectClass=ldapPublicKey) (cn=$1))" | \
+>	sed -n '/^ /{H;d};/sshPublicKey:/x;$g;s/\n *//g;s/sshPublicKey: //gp'
 
 
 Comprobamos su funcionamiento de script:
