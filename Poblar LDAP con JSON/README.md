@@ -45,7 +45,7 @@ Instalamos python-ldap:
 pip install python-ldap
 ```
 
-Instalamos libnss-ldapd para la autentificación de usuario en LDAP:
+Instalamos libnss-ldapd para la autenticación de usuario en LDAP:
 ```
 apt-get install libnss-ldapd ldap-utils
 ```
@@ -57,7 +57,7 @@ Conexión:
 ldap://localhost:389/
 ```
 
-Base de nuestro arbol:
+Base de nuestro árbol:
 ```
 dc=example,dc=org
 ```
