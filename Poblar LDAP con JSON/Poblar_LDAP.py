@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # https://github.com/Tedezed
+#2
 
 import ldap
 from ldap import modlist
