@@ -6,7 +6,7 @@ import os
 import getpass
 from json import loads
 
-file_name = 'humans.js'
+file_name = 'humans.json'
 name_value = 'humanos'
 
 passwd = getpass.getpass('Contraseña del usuario admin LDAP: ')

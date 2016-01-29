@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # https://github.com/Tedezed
-#2
+
 
 import ldap
 from ldap import modlist
@@ -11,7 +11,7 @@ from json import loads
 # Values #
 #user = 'admin'
 conection = "ldap://localhost:389/"
-file_name = 'humans.js'
+file_name = 'humans.json'
 name_value = 'humanos'
 dom = 'dc=example,dc=org'
 uidNumberInitial = 2000
